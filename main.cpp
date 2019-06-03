@@ -1,3 +1,13 @@
+/*
+This project was made by :
+Adarsh Revankar, Akshaya M.
+As Mini-Project for the course 'Computer Graphics Laboratory' under VTU.
+
+This project was made with high effort from team, please do approciate the work.
+I expect you guys to take few code snippets from this code & not the whole project.
+Any improvements made will be accepted, mail the code to : adarshrevankar0123@gmail.com
+*/
+
 #include <iostream>
 #include <GL/glut.h>
 
