@@ -1,12 +1,17 @@
 # GRAPHICAL SIMULATION OF DESKTOP AND ITS COMPONENTS
 OpenGL project which consists of 3D environment, to demonstrate assembly and disassembly of desktop parts. This uses basic glut library to construct a 3D Scene of CPU and it's components.
 
+# Screenshots
+![Inital View of System](https://user-images.githubusercontent.com/48080453/60199807-5a41f600-9862-11e9-849c-9f65a8638e0d.png)
+![CPU Cabinet](https://user-images.githubusercontent.com/48080453/60199855-73e33d80-9862-11e9-9d0f-3606fbb0bbb8.png)
+![Desktop](https://user-images.githubusercontent.com/48080453/60199856-73e33d80-9862-11e9-850e-467f089f63cc.png)
+
 # Setup Project
   1. Setup the project with required OpenGL headerfiles in your IDE (refer this - [Visual Studio](https://www.youtube.com/watch?v=k9LDF016_1A) or [CodeBlocks](https://www.youtube.com/watch?time_continue=79&v=Le4ub4apbn0)).
   2. Copy all required __header files & data files__ the project.
   3. Run the project. `main.cpp`
   
-  ⚠ **Note**: BMP Image Error - `parameter.h` change _BMP images_ path to either **Relative** to project *( Currently )* or **Absolute**  *( if error occurs )*
+ > ⚠ **Note**: BMP Image Error - `parameter.h` change _BMP images_ path to either **Relative** to project *( Currently )* or **Absolute**  *( if error occurs )*
   
 # Controls
   - `Up Arrow` - Move Forwards
@@ -16,7 +21,7 @@ OpenGL project which consists of 3D environment, to demonstrate assembly and dis
   - `Esc` - Exit of Program / Exit of CPU View ( according to context )
   - `Enter` - Enter into CPU View / Disassemble Components ( according to context )
   - `Backspace` - Assemble components
-  - `Mouse Hover` - Change Camera View & Rotate Personn
+  - `Mouse Hover` - Change Camera View & Rotate Person
   
 # Requirements
   - IDE ( *Visual Studio / CodeBlocks* )\*
