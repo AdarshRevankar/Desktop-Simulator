@@ -6,7 +6,7 @@ OpenGL project which consists of 3D environment, to demonstrate assembly and dis
   2. Copy all required __header files & data files__ the project.
   3. Run the project. `main.cpp`
   
-  ⚠ **Note**: BMP Image Error - `parameter.h` change _BMP images_ path to either **Relative** to project *( Currently )* or **Absolute** *( if error occurs )*
+  ⚠ **Note**: BMP Image Error - `parameter.h` change _BMP images_ path to either **Relative** to project *( Currently )* or **Absolute**  *( if error occurs )*
   
 # Controls
   - `Up Arrow` - Move Forwards
@@ -16,6 +16,7 @@ OpenGL project which consists of 3D environment, to demonstrate assembly and dis
   - `Esc` - Exit of Program / Exit of CPU View ( according to context )
   - `Enter` - Enter into CPU View / Disassemble Components ( according to context )
   - `Backspace` - Assemble components
+  - `Mouse Hover` - Change Camera View & Rotate Personn
   
 # Requirements
   - IDE ( *Visual Studio / CodeBlocks* )\*
