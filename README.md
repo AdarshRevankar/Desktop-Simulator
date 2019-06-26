@@ -7,5 +7,5 @@ This project was contain
   glut.h ( freeglut.h )
     
 # References
-  1. Basic 3D World Setup was built using [http://www.lighthouse3d.com/tutorials/glut-tutorial/]this.
-  2.
+  1. Basic 3D World Setup was built using [this](http://www.lighthouse3d.com/tutorials/glut-tutorial/).
+  2. Basic OpenGL function's introduction was done using [this](https://www.khronos.org/).
