@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1446667738 source:c:\users\adars\desktop\opengl trial\desktop-simulation\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1587467583 source:c:\users\adars\desktop\opengl trial\desktop-simulation\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	"parameter.h"
+	"motion.h"
+	"objects.h"
+	"bitmap.h"
+	"light.h"
+
+1587467963 c:\users\adars\desktop\opengl trial\desktop-simulation\parameter.h
+	<math.h>
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\motion.h
+	"parameter.h"
+	"objects.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\objects.h
+	<GL/glut.h>
+	<GL/freeglut.h>
+	"bmpLoader.h"
+	"cpu_fan.h"
+	"cpu_motherboard.h"
+	"cpu_case.h"
+	"cpu_ram.h"
+	"cpu_chipset.h"
+	"cpu_gpu.h"
+	"cpu_psu.h"
+	"cpu_harddisk.h"
+	"environment_objects.h"
+	"env_table.h"
+	"cpu_cable.h"
+
+1587467011 c:\users\adars\desktop\opengl trial\desktop-simulation\bmploader.h
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_fan.h
+	"parameter.h"
+	"dragHandler.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\draghandler.h
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_motherboard.h
+	<GL/glut.h>
+	"dragHandler.h"
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_case.h
+	<GL/glut.h>
+	"cpu_fan.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_ram.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_chipset.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_gpu.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_psu.h
+	"parameter.h"
+	"bitmap.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\bitmap.h
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_harddisk.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\environment_objects.h
+	"parameter.h"
+	<math.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\env_table.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\cpu_cable.h
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulation\light.h
+	<GL/glut.h>
+
+1587469003 source:c:\users\adars\desktop\opengl trial\desktop-simulator\main.cpp
+	<GL/glut.h>
+	<iostream>
+	"parameter.h"
+	"motion.h"
+	"objects.h"
+	"bitmap.h"
+	"light.h"
+
+1587467963 c:\users\adars\desktop\opengl trial\desktop-simulator\parameter.h
+	<math.h>
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\motion.h
+	"parameter.h"
+	"objects.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\objects.h
+	<GL/glut.h>
+	<GL/freeglut.h>
+	"bmpLoader.h"
+	"cpu_fan.h"
+	"cpu_motherboard.h"
+	"cpu_case.h"
+	"cpu_ram.h"
+	"cpu_chipset.h"
+	"cpu_gpu.h"
+	"cpu_psu.h"
+	"cpu_harddisk.h"
+	"environment_objects.h"
+	"env_table.h"
+	"cpu_cable.h"
+
+1587467011 c:\users\adars\desktop\opengl trial\desktop-simulator\bmploader.h
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_fan.h
+	"parameter.h"
+	"dragHandler.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\draghandler.h
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_motherboard.h
+	<GL/glut.h>
+	"dragHandler.h"
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_case.h
+	<GL/glut.h>
+	"cpu_fan.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_ram.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_chipset.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_gpu.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_psu.h
+	"parameter.h"
+	"bitmap.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\bitmap.h
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_harddisk.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\environment_objects.h
+	"parameter.h"
+	<math.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\env_table.h
+	"parameter.h"
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\cpu_cable.h
+	<GL/glut.h>
+
+1587377455 c:\users\adars\desktop\opengl trial\desktop-simulator\light.h
+	<GL/glut.h>
+
