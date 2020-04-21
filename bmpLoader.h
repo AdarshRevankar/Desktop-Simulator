@@ -3,6 +3,7 @@
 
 #include <windows.h>
 #include <GL/glut.h>
+#include <stdio.h>
 
 class BmpLoader {
 private:FILE* file;
@@ -16,7 +17,7 @@ public:	unsigned char* data;	// Contains Image pixel info.
 BmpLoader::BmpLoader(const char* filename)
 {
 	iWidth = 0, iHeight = 0;
-	fopen_s(&file, filename, "rb");
+	file = fopen(filename, "rb");
 	if (file == NULL) {
 		printf("ERROR : BITMAP LOAD - File not found : File = %s\n", filename);
 		exit(0);

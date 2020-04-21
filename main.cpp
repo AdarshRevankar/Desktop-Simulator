@@ -7,9 +7,8 @@ This project was made with high effort from team, please do approciate the work.
 I expect you guys to take few code snippets from this code & not the whole project.
 Any improvements made will be accepted, mail the code to : adarshrevankar0123@gmail.com
 */
-
-#include <iostream>
 #include <GL/glut.h>
+#include <iostream>
 
 #include "parameter.h"
 #include "motion.h"
@@ -65,7 +64,7 @@ void renderScene()
 	gluLookAt(x, 5.0f, z,
 		x + lx, y, z + lz,
 		0.0f, 1.0f, 0.0f);
-	
+
 	if (page == 1) {
 		drawGround();
 		drawCube();
@@ -89,7 +88,7 @@ void opengl_init(void) {
 	glutSpecialFunc(processSpecialKeys);
 	glutPassiveMotionFunc(mouse_follow);
 	show_light_effect();
-	
+
 }
 
 void setDeltaTime() {
@@ -107,5 +106,6 @@ int main(int argc, char ** argv) {
 	glutFullScreen();
 	setDeltaTime();
 	glutMainLoop();
+	getchar();
 	return 0;
 }
