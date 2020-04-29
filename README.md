@@ -7,6 +7,8 @@ OpenGL project which consists of 3D environment, to demonstrate assembly and dis
 
 ![Desktop-Simulator-Logo](https://user-images.githubusercontent.com/48080453/79739766-4220f300-831c-11ea-9873-8991e212f4cb.png)
 
+see [Code of Conduct](https://github.com/AdarshRevankar/Desktop-Simulator/blob/master/CODE_OF_CONDUCT.md)
+
 ---
 #### Demonstration - Youtube
 ```https://youtu.be/VInynN3uoLo```
