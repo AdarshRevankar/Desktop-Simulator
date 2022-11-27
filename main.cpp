@@ -93,7 +93,7 @@ void opengl_init(void) {
 
 void setDeltaTime() {
 	int timeSinceStart = glutGet(GLUT_ELAPSED_TIME);
-	deltaTime = (timeSinceStart - oldTimeSinceStart) * 0.03f;
+	deltaTime = (timeSinceStart - oldTimeSinceStart) * 0.2f;
 	oldTimeSinceStart = timeSinceStart;
 }
 
