@@ -16,19 +16,10 @@ see [Code of Conduct](https://github.com/AdarshRevankar/Desktop-Simulator/blob/m
 ---
 #### Screenshots
 
-<div style="align-items: center">
-Initial View
-
-<img src="https://user-images.githubusercontent.com/48080453/60199807-5a41f600-9862-11e9-849c-9f65a8638e0d.png" width="100%" alt="initial view of system" style="max-height: 100px;"/>
-
-CPU View
-
-<img src="https://user-images.githubusercontent.com/48080453/60199855-73e33d80-9862-11e9-9d0f-3606fbb0bbb8.png" width="100%" alt="cpu view" style="max-height: 100px;"/>
-
-Desktop View
-
-<img src="https://user-images.githubusercontent.com/48080453/60199856-73e33d80-9862-11e9-850e-467f089f63cc.png" width="100%" alt="desktop" style="max-height: 100px;"/>
-</div>
+Initial View | <img src="https://user-images.githubusercontent.com/48080453/60199807-5a41f600-9862-11e9-849c-9f65a8638e0d.png" alt="initial view of system" style="max-height: 80px;"/>
+--- | ---
+CPU View | <img src="https://user-images.githubusercontent.com/48080453/60199855-73e33d80-9862-11e9-9d0f-3606fbb0bbb8.png" alt="cpu view" style="max-height: 80px;"/>
+Desktop View | <img src="https://user-images.githubusercontent.com/48080453/60199856-73e33d80-9862-11e9-850e-467f089f63cc.png" alt="desktop" style="max-height: 80px;"/>
 
 ---
 
@@ -38,6 +29,31 @@ Desktop View
   3. Run the project. `main.cpp`
   
  > ⚠ **Note**: BMP Image Error - `parameter.h` change _BMP images_ path to either **Relative** to project *( Currently )* or **Absolute**  *( if error occurs )*
+
+ ### MacOS
+ Instructions to run on MacOS
+ 
+ Install **brew**
+ ```
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+ ```
+ 
+ Install necesarry linking libraries
+ ```
+ brew install freeglut glfw3 glew lstdc++
+ ```
+ 
+ Compile project into binary
+ ```
+ clang -o main main.cpp -L/usr/local/lib -lglfw -lstdc++ -framework OpenGL -framework GLUT -framework Cocoa
+ ```
+ 
+ Run the binary
+ ```
+ ./main
+ ```
+
+ > ⚠ **Note**: GLUT is getting deprecated on MacOS 10.9 above, so some functionalities might not work. Need to fix these deprecations soon
 
 ---
   
@@ -54,9 +70,9 @@ Desktop View
 ---
 
 #### Requirements
-  - IDE ( *Visual Studio / CodeBlocks* )\*
+  - (optional) IDE ( *Visual Studio / CodeBlocks* )\*
   - basic C++ Libraries
-  - glut.h ( freeglut.h )
+  - glut.h ( freeglut )
     
 ---
 
