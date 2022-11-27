@@ -1,7 +1,9 @@
 #ifndef BMPLOADER_H
 #define BMPLOADER_H
 
-#include <windows.h>
+#ifdef _WIN32
+	#include <windows.h>
+#endif
 #include <GL/glut.h>
 #include <stdio.h>
 
